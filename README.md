@@ -1,0 +1,3 @@
+# Problem Statement
+
+There are a lot of produce items priced by the pound. Unfortunately, many grocery stores have outdated methods of processing fruits and vegetables at checkout. Typically, a cashier manually inputs a code identifying the product, or customers (at self checkout) must select the produce name they are purchasing on the self checkout touch screen. These methods are very outdated. It is imperative to create a machine that will accurately recognize specific fruits and vegetables to accelerate the process.  
