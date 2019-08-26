@@ -4,15 +4,13 @@
 <img src="./visuals/produce.png">
 
 ---
-## Introduction
+## Executive Summary
 
 ### Problem Statement
-Build a model that will accurately classify fruits and vegetables when produce items are scanned. 
-
-### Executive Summary
-
 There are a lot of produce items priced by the pound. Unfortunately, many grocery stores use inefficient methods of processing fruits and vegetables at checkout. Typically, a cashier manually inputs a code identifying the product, or customers (at self checkout) must select the produce name they are purchasing on the self checkout touch screen. These methods are very outdated. It is imperative to create a machine that will accurately recognize specific fruits and vegetables to accelerate the process.  
 
+ I will build a model that will accurately classify fruits and vegetables when produce items are scanned. 
+ 
 **Audience**
 - Grocery Stakeholders
 - Self-Checkout Users
