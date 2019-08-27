@@ -200,10 +200,10 @@ In this notebook I executed the following tasks before modeling:
 Here are my recommendations:
 - Collect more uncontaminated colored data (THIS IS VERY IMPORTANT)
     - Ideally, I wanted ~10,000 images per produce item. 
-    - Increasing image QTY from 24,881 to 70,000 will greatly improve scores,
+    - Increasing image QTY from 24,881 to 70,000 will greatly improve scores. 
 - Increase Processing Power 
     - Increasing processing power would allow me to tune and regularize my model to achieve better scores.  
-    - This will give me the opportunity to change learning rates and determine the best one
+    - This will give me the opportunity to change learning rates and determine the better tuned models. 
 - Research
     - Different convolutional bases 
     - Different optimizers 
