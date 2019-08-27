@@ -85,10 +85,14 @@ There are a lot of produce items priced by the pound. Unfortunately, many grocer
 
 **Repository Notes**
 - Due to large datasets, CSV and image folders are not uploaded. 
-- The `images` folder formats the folders specificed in `11_Scrape_FlickrAPI.ipynb` and `12_resizing_images.ipynb` for apples only. Note: these folders are empty. 
+- The `images` folder formats the folders specified in `11_Scrape_FlickrAPI.ipynb` and `12_resizing_images.ipynb` for apples only. Note: these folders are empty. 
 - Inside the `datasets` folder rests the `dataset_with_kaggle_pics` folder. Note: the `dataset_with_kaggle_pics` folder is empty but it is intended to have the seven CSV files that store the unraveled images transformed into pixels (one CSV file representing one produce item). 
 - In notebook `03_{produce_name}_resize`, the folder `dataset_without_kaggle_pics` is mentioned because I also modeled without the Kaggle images. Note: `dataset_without_kaggle_pics` is not in the `datasets` folder. 
 - You must download Kaggle images yourself once this repo is cloned. Please see the works cited section below for the Kaggle link. 
+- In notebook `11_Scrape_FlickrAPI.ipynb`, the main code did not run in order to prevent a long list of print statements.
+- In notebook `12_resizing_images.ipynb`, the main code that resizes images did not run in order to prevent a long list of print statements.
+- In notebook `13_image_to_array.ipynb`, the main code that unravels images to an array of pixel numbers did not run in order to prevent a long list of print statements.
+- Notebook `15_keras_time_GCP.ipynb` shows the modeling process using the convolutional base `VGG19`. **Note:** Our final results uses the `VGG16` convolutional base. 
 
 ---
 
@@ -185,6 +189,8 @@ In this notebook I executed the following tasks before modeling:
 
 <img src="./visuals/10_vgg16_p2.png">
 
+**Deploying this Model on Flask**
+- The folder `FLASK` stores the code for deploying this CNN model. Note: In the file path ./FLASK/models stores our VGG16 model we saved as an h5 file. 
 
 ## Overall Conclusions and Recommendation 
 
