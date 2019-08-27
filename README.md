@@ -79,6 +79,16 @@ There are a lot of produce items priced by the pound. Unfortunately, many grocer
 - `13_image_to_array.ipynb`
 - `14_df_setup.ipynb`
 - `15_keras_time_GCP.ipynb`
+---
+
+***If this repository is cloned, please read the repository notes for further clarification***
+
+**Repository Notes**
+- Due to large datasets, CSV and image folders are not uploaded. 
+- The `images` folder formats the folders specificed in `11_Scrape_FlickrAPI.ipynb` and `12_resizing_images.ipynb` for apples only. Note: these folders are empty. 
+- Inside the `datasets` folder rests the `dataset_with_kaggle_pics` folder. Note: the `dataset_with_kaggle_pics` folder is empty but it is intended to have the seven CSV files that store the unraveled images transformed into pixels (one CSV file representing one produce item). 
+- In notebook `03_{produce_name}_resize`, the folder `dataset_without_kaggle_pics` is mentioned because I also modeled without the Kaggle images. Note: `dataset_without_kaggle_pics` is not in the `datasets` folder. 
+- You must download Kaggle images yourself once this repo is cloned. Please see the works cited section below for the Kaggle link. 
 
 ---
 
