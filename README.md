@@ -1,3 +1,5 @@
+Slides: https://docs.google.com/presentation/d/1tXnden0UMZBwTFnp1-bSUZadrGblrqcU549s_DLVuBM/edit#slide=id.g60fbc69a3d_0_266
+
 # Image Classification of Fruits and Vegetables
 #### By: Erin Hwang
 
